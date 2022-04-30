@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(images/landing.jpg);
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+header nav{
+    width: 20%;
+    height: 90px;
+
+}
+header nav a{
+    line-height: 10px;
+}
+header nav img{
+    margin-top: 30px;
+
+}
+
+header div{
+    width: 80%;
+    height: 90px;
+
+}
+header div ul{
+    list-style-type: none;
+}
+header div li{
+    line-height: 90px;
+    padding: 0 50px;
+
+
+}
+header div a{
+    display: inline-block;
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+
+}
+header div a:hover{
+    background-color: white;
+    color:blueviolet;
+    border: 3px blue solid;
+    text-decoration: underline;
+}
